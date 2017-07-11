@@ -1,0 +1,20 @@
+{
+    "name": "evabioz/og-middleware",
+    "description": "Laravel middleware for allow open graph bot visit it",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Lin",
+            "email": "evabioz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Evabioz\\OGMiddleware\\": "src/"
+        }
+    }
+}
